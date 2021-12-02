@@ -18,17 +18,18 @@
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
         "drupal/coffee": "^1.2",
-        "drupal/core-composer-scaffold": "^9.2",
-        "drupal/core-project-message": "^9.2",
-        "drupal/core-recommended": "^9.2",
+        "drupal/core-composer-scaffold": "^9.3@beta",
+        "drupal/core-recommended": "^9.3@beta",
+        "drupal/focal_point": "^1.5",
         "drupal/gin": "^3.0@alpha",
         "drupal/module_filter": "^3.2",
-        "drupal/pathauto": "^1.8"
+        "drupal/pathauto": "^1.8",
+        "drush/drush": "^10.6"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
